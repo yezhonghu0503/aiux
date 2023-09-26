@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
+// import logo from "./logo.svg";
+// import { Counter } from "./features/counter/Counter";
 import { Bar } from "./features/topbar/bar";
 import "./App.css";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Bar />
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -51,7 +51,7 @@ function App() {
           >
             React Redux
           </a>
-        </span>
+        </span> */}
       </header>
     </div>
   );
