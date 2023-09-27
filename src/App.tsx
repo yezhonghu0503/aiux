@@ -1,7 +1,7 @@
 import React from "react";
 // import logo from "./logo.svg";
 // import { Counter } from "./features/counter/Counter";
-import { Bar } from "./features/topbar/bar";
+import { Bar } from "./pages/components/topbar/bar";
 import "./App.css";
 
 function App() {
