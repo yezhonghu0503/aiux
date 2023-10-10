@@ -1,7 +1,8 @@
 import React from "react";
 // import logo from "./logo.svg";
 // import { Counter } from "./features/counter/Counter";
-import { Bar } from "./pages/components/topbar/bar";
+import { Bar } from "./components/bar";
+import Homepage from "./pages/home";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Bar />
+        <Homepage />
         {/* <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
